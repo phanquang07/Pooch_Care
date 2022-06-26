@@ -1,14 +1,28 @@
 /* Tablet */
 @media screen and (max-width: 991px) {
-  
+    .package__btn .poBtn {
+        font-size: 1rem;
+    }
 }
 
 /* Small Tablet */
 @media screen and (max-width: 767px) {
-
+    .packages__content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        margin: 50px auto 0;
+        width: 70%;
+    }
 }
 
 /* Mobile */
 @media screen and (max-width: 575px) {
+    .packages__content {
+        width: 100%;
+    }
 
+    .packages__heading .title-l{
+    font-size: 32px;
+    line-height: 38px;
+    }
 }
