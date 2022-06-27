@@ -303,3 +303,59 @@ a {
   color: #fff;
 }
 
+/* Hết Packages  */
+
+/* Video  */
+.video__content {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.video__title {
+  text-align: center;
+}
+
+.video__title p {
+  font-size: 1.2em;
+  line-height: 28px;
+}
+
+.video__link {
+  position: relative;
+}
+
+.video__button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.video__button a {
+  background: #fff;
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  border-radius: 50%;
+  text-align: center;
+  color: #189A45;
+  transition: 0.3s ease-in-out;
+  animation: ripple 1s linear infinite;
+}
+
+.video__button a:hover {
+  transform: scale(1.1);
+}
+
+@keyframes ripple {
+  0% {
+    box-shadow: 0 0 0 0 rgb(15 162 66 / 16%), 0 0 0 10px rgb(15 162 67 / 25%), 0 0 0 20px rgb(15 162 67 / 25%);
+  }
+
+  100% {
+    box-shadow: 0 0 0 10px rgb(15 162 67 / 25%), 0 0 0 20px rgb(15 162 67 / 25%), 0 0 0 40px rgb(50 100 245 / 0%);
+  }
+}
+
+/* Hết video  */

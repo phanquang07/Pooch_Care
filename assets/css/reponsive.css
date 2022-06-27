@@ -1,12 +1,19 @@
 /* Tablet */
 @media screen and (max-width: 991px) {
+    /* Packages  */
     .package__btn .poBtn {
         font-size: 1rem;
     }
+    /* video  */
+    .video__title .title-l {
+        font-size: 2.1rem;
+    }
+       
 }
 
 /* Small Tablet */
 @media screen and (max-width: 767px) {
+    /* Packages  */
     .packages__content {
         grid-template-columns: 1fr;
         gap: 30px;
@@ -17,6 +24,7 @@
 
 /* Mobile */
 @media screen and (max-width: 575px) {
+    /* Packages  */
     .packages__content {
         width: 100%;
     }
