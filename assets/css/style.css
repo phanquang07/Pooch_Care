@@ -245,21 +245,6 @@ a {
   text-align: center;
 }
 
-/* .btn-style {
-  padding: 12px 35px;
-  font-size: 18px;
-  line-height: 28px;
-  text-transform: capitalize;
-  font-weight: 400;
-  transition: 0.3s ease-in;
-  border-radius: var(--border-radius);
-  color: #fff;
-  background-color: #189A46;
-  border-color: transparent;
-  text-align: center;
-  margin-top: 2em;
-} */
-
 .btn-blue:hover {
   color: #fff;
 }
@@ -359,3 +344,86 @@ a {
 }
 
 /* Hết video  */
+
+/* Feedback  */
+.testimonials {
+  background: var(--bg-light-color);
+  text-align: center;
+}
+
+.testimonials__feedback .item {
+  display: block;
+  margin: 0;
+  padding: 40px 30px;
+  position: relative;
+  background: var(--bg-white-color);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 25px 98px 0 rgb(19 19 19 / 3%);
+  overflow: hidden;
+}
+
+.testimonials__feedback .item>p {
+  font-size: 1.2em;
+  line-height: 28px;
+  margin-bottom: 1.5em;
+  color: var(--para-color);
+}
+
+.testimonials__feedback i {
+  font-size: 50px;
+  color: var(--primary-color);
+  line-height: .8;
+  padding-top: 8px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.feedback__people {
+  display: flex;
+  align-items: center;
+}
+
+.feedback__img {
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  overflow: hidden;
+  background: var(--bg-color);
+  border-radius: 50%;
+}
+
+.feedback__name {
+  margin-left: 20px;
+  text-align: left;
+}
+
+.feedback__name h3 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.dark .feedback__name h3 {
+  color: #ddd;
+}
+
+.feedback__name p {
+  color: #777;
+  font-size: 17px;
+  font-style: normal;
+  margin-bottom: 0;
+  text-align: left;
+  opacity: 0.8;
+}
+
+.testimonials .owl-theme .owl-nav.disabled+.owl-dots {
+  margin-top: 70px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: var(--primary-color);
+  width: 30px;
+  height: 10px;
+}

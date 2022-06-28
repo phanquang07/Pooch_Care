@@ -29,8 +29,10 @@
         width: 100%;
     }
 
-    .packages__heading .title-l{
+    .packages__heading .title-l, .testimonials__title .title-l{
     font-size: 32px;
     line-height: 38px;
     }
+
+
 }
