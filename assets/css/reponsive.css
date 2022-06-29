@@ -20,6 +20,20 @@
         margin: 50px auto 0;
         width: 70%;
     }
+    
+    /* Subscribe  */
+    .updated__form {
+        display: block;
+    }
+
+    .updated__form input[type="email"] {
+        width: 100%;
+    }
+
+    .updated__form button {
+        width: 100%;
+        margin-top: 16px;
+    }
 }
 
 /* Mobile */

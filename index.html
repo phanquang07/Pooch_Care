@@ -250,18 +250,89 @@
       </div>
     </section>
   </section>
+
   <!-- Subscribe -->
   <section class="subscribe">
-
+    <section class="updated py-5">
+      <div class="container py-3">
+        <div class="updated__title">
+          <h2 class="title-l">Stay Updated!</h2>
+          <p class="my-3">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+            Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.
+          </p>
+        </div>
+        <div class="updated__form pt-2 mt-5">
+          <input type="email" class="form__control" placeholder="Enter your email...">
+          <button class="btn-blue poBtn">Subscribe</button>
+        </div>
+      </div>
+    </section>
   </section>
   <!-- Footer -->
-  <footer class="footer">
-
+  <footer>
+    <div class="container py-lg-3">
+      <div class="row">
+        <div class="col-12 col-md-5 col-lg-6">
+          <div class="contact__info mt-5">
+            <h3 class="footer__header">Contact information</h3>
+            <p><strong>Address</strong> : #135 block, Barnard St. Brooklyn, London 10036, UK</p>
+            <p><strong>Phone</strong> :
+              <a href="#"> +(12)234-11-24</a>
+            </p>
+            <p><strong>Email</strong> : <a href="mailto:example@mail.com">example@mail.com</a></p>
+            <div class="social__icon mt-3">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+              <a href="#"><i class="fa-brands fa-google"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-7 col-lg-6">
+          <div class="row">
+            <div class="col-6 col-sm-4 mt-5">
+              <div class="footer__item">
+                <h3 class="footer__header">Company</h3>
+                <a href="#">About Us</a>
+                <a href="#">Blog Posts</a>
+                <a href="#">Services</a>
+                <a href="#">Pricing</a>
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 mt-5">
+              <div class="footer__item">
+                <h3 class="footer__header">Quick Links</h3>
+                <a href="#">Contact Us</a>
+                <a href="#">Create account</a>
+                <a href="#">Care Center</a>
+                <a href="#">Site Feedack</a>
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 mt-5">
+              <div class="footer__item">
+                <h3 class="footer__header">Support</h3>
+                <a href="#">All Dogs</a>
+                <a href="#">Care Advices</a>
+                <a href="#">Care Support</a>
+                <a href="#">Veterinary Help</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom py-4 mt-5">
+      <p> © 2020 Pooch Care. All Rights Reserved. Design by <a href="#">W3Layouts</a></p>
+    </div>
   </footer>
+
   <!-- Back to top -->
   <section class="back-to-top">
-
+    <a href="#" class="backtotop cd-top text-replace js-cd-top">
+      ⤴
+    </a>
   </section>
+
   <!-- Jquery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
     integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
@@ -276,7 +347,7 @@
     $('.owl-feedback').owlCarousel({
       loop: false,
       nav: false,
-      autoplay: false, 
+      autoplay: false,
       margin: 20,
       responsiveClass: true,
       responsive: {
@@ -329,6 +400,11 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.2.0/countUp.min.js"
     integrity="sha512-Mili37D9YYhX2mjYmMLnGmQLqcgwjIC9al7Wb2XHOpgqWrEOdGY5Z/XVG/yzLoJXHPaa2c27RVCDM76L+oblxQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- backToTop js  -->
+  <script src="./assets/js/util.js"></script>
+  <script src="./assets/js/main-backToTop.js"></script>
+
   <!-- Main -->
   <script src="./assets/js/main.js"></script>
 </body>
