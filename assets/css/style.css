@@ -32,7 +32,6 @@ body {
   line-height: 1.5;
   color: var(--text-gray-color);
   background-color: var(--bg-white-color);
-  scroll-behavior: smooth;
 }
 
 .container-l {
