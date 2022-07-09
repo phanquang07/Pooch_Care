@@ -396,10 +396,7 @@ a {
   margin: 0;
   font-weight: 600;
   font-size: 20px;
-}
-
-.dark .feedback__name h3 {
-  color: #ddd;
+  color: var(--heading-color);
 }
 
 .feedback__name p {
@@ -489,7 +486,8 @@ footer {
   margin-bottom: 25px;
 }
 
-.footer__item a:hover, .contact__info a:hover {
+.footer__item a:hover,
+.contact__info a:hover {
   text-decoration: underline;
   color: #fff;
 }
@@ -567,4 +565,47 @@ footer {
 
 a.backtotop:hover {
   color: #fff;
+}
+
+/* Darktheme  */
+
+.dark .packages,
+.dark .testimonials {
+  background: #222;
+}
+
+.dark .package__item {
+  background: #151515;
+  border-color: #333;
+}
+
+.dark .feedback__name h3 {
+  color: #ddd;
+}
+
+.dark h2,
+.dark h3 {
+  color: #ddd;
+}
+
+.dark .title-s {
+  color: #f53626;
+}
+
+.dark .package__bottom p,
+.dark p {
+  color: #afafaf;
+}
+
+.dark .pooch__video {
+  background-color: black;
+}
+
+.dark .testimonials__feedback .item, .dark .updated {
+  background: #151515;
+  border-color: #333;
+}
+
+.dark .package__bottom p, .dark .testimonials__feedback .item>p {
+  color: #afafaf;
 }
