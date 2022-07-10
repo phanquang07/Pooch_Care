@@ -1,26 +1,41 @@
+/* Large PC */
+@media screen and (max-width: 1279px) {
+    /* .container {
+    max-width: 1140px;
+  } */
+}
+
 /* Tablet */
 @media screen and (max-width: 991px) {
+
+    /* Services */
+    .services-text {
+        margin-top: 48px;
+    }
+
     /* Packages  */
     .package__btn .poBtn {
         font-size: 1rem;
     }
+
     /* video  */
     .video__title .title-l {
         font-size: 2.1rem;
     }
-       
+
 }
 
 /* Small Tablet */
 @media screen and (max-width: 767px) {
+
     /* Packages  */
     .packages__content {
         grid-template-columns: 1fr;
         gap: 30px;
         margin: 50px auto 0;
-        width: 75%;
+        width: 90%;
     }
-    
+
     /* Subscribe  */
     .updated__form {
         display: block;
@@ -39,10 +54,11 @@
 /* Mobile */
 @media screen and (max-width: 575px) {
     /* Packages  */
- 
-    .packages__heading .title-l, .testimonials__title .title-l{
-    font-size: 32px;
-    line-height: 38px;
+
+    .packages__heading .title-l,
+    .testimonials__title .title-l {
+        font-size: 32px;
+        line-height: 38px;
     }
 
 

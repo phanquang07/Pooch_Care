@@ -34,28 +34,36 @@ body {
   background-color: var(--bg-white-color);
 }
 
+/* .container {
+  max-width: 1200px;
+} */
+
 .container-l {
   max-width: 1050px;
-  width: 100%;
+  width: 100%;  
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .container-m {
   max-width: 950px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .container-s {
   max-width: 700px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .container-xs {
   max-width: 650px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 h1,
@@ -64,6 +72,7 @@ h3,
 h4,
 h5,
 h6,
+ul,
 p {
   margin-bottom: 0;
 }
@@ -72,7 +81,7 @@ li {
   list-style: none;
 }
 
-a {
+a:hover {
   text-decoration: none;
 }
 
@@ -89,6 +98,7 @@ a {
   letter-spacing: 1px;
   text-transform: uppercase;
   color: var(--secondary-color);
+  text-align: center;
 }
 
 .title-m {
@@ -100,9 +110,10 @@ a {
 .title-l {
   font-size: 2.5rem;
   font-weight: 600;
-  line-height: 2.5rem;
+  line-height: 3rem;
   text-transform: capitalize;
   color: var(--heading-color);
+  text-align: center;
 }
 
 .read-more {
@@ -113,6 +124,7 @@ a {
   color: var(--heading-color);
   text-transform: capitalize;
   transition: 0.3s ease-in-out;
+  margin-top: 20px;
 }
 
 .read-more:hover {
@@ -163,7 +175,186 @@ a {
   background-color: var(--text-white-color);
 }
 
+.section-padding {
+  padding: 48px 0;
+}
 
+/* Quang */
+/* Header */
+/* .header {
+  height: 90px;
+  background-color: var(--bg-white-color);
+  box-shadow: 0 3px 9px rgb(0 0 0 / 5%);
+  transition: all 0.4s ease 0s;
+  display: flex;
+  align-items: center;
+}
+
+.header-contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.header-logo {}
+
+.header-right {
+  display: flex;
+}
+
+.navbar {
+  flex-basis: auto;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.header-darkmode {
+  display: flex;
+  align-items: center;
+} */
+
+/* About */
+.about {
+  background-color: var(--bg-white-color);
+}
+
+.about-contents {
+  /* max-width: 700px; */
+  padding: 48px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-contents p {
+  font-size: 1.2em;
+  line-height: 1.75rem;
+  margin: 16px 0;
+}
+
+/* Features */
+.features {
+  background-color: var(--bg-light-color);
+}
+
+.features-contents {
+  padding: 48px 0;
+}
+
+.features-item-inner {
+  padding: 40px 30px;
+  margin-bottom: 30px;
+  border-radius: var(--border-radius);
+  background-color: var(--bg-white-color);
+  transition: all 0.5s ease 0s;
+}
+
+.features-item-inner:hover {
+  background-color: var(--bg-light-color);
+}
+
+.features-icon i {
+  color: var(--primary-color);
+  font-size: 30px;
+}
+
+.features-title {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.features-title a {
+  color: var(--heading-color);
+}
+
+.features-title a:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+.features-item-contents {
+  font-size: 1.2em;
+  line-height: 1.75rem;
+}
+
+/* Services */
+.services-contents {
+  padding: 48px 0;
+  align-items: center;
+}
+
+.services-img {
+  padding-left: 48px;
+}
+
+.services-img img {
+  width: 100%;
+  border-radius: var(--border-radius);
+}
+
+.services-text h4,
+.services-text h2 {
+  text-align: left;
+}
+
+
+
+.services-text-contents {
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+
+.services-item {
+  font-weight: 600;
+  margin: 15px 0;
+  color: var(--heading-color);
+  margin-left: 12px;
+}
+
+.services-item i {
+  font-size: 0.625rem;
+  padding: 8px;
+  color: var(--primary-color);
+  background: var(--bg-light-color);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* Statistics */
+.statistics {
+  background-color: var(--primary-color);
+}
+
+.statistics-item {
+  color: var(--text-white-color);
+  padding-top: 30px;
+  text-align: center;
+}
+
+.statistics-number {
+  font-size: 3.125rem;
+  line-height: 3.75rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.statistics-text {
+  font-size: 1.25rem;
+  line-height: 1.563rem;
+  margin-top: 10px;
+  opacity: 0.8;
+  text-transform: capitalize;
+}
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+/* Phong */
 /* Packages  */
 .packages {
   background: var(--bg-light-color);
@@ -565,6 +756,7 @@ footer {
 
 a.backtotop:hover {
   color: #fff;
+  text-decoration: none;
 }
 
 /* Darktheme  */
